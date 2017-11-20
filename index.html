@@ -1,85 +1,79 @@
 <!DOCTYPE html>
-<html >
+<html>
+
 <head>
   <meta charset="UTF-8">
   <title>An Anonymous Pen on CodePen</title>
-  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
   <link rel='stylesheet prefetch' href='https://rsms.me/inter/inter-ui.css'>
-
-      <link rel="stylesheet" href="css/style.css">
-
-  
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  
-<div class="settings">
-  <div class="toggle">
-    <button class="primary">Toggle Theme</button>
+  <div class="settings">
+    <div class="toggle">
+      <button class="primary">Toggle Theme</button>
+    </div>
+    <div class="widget-header">Edit Colors</div>
+    <div class="controls">
+      <div class="control">
+        <label for="a">Primary Color</label>
+        <input class="z" type="color" id="a" name="primary" value="#54478E" />
+      </div>
+      <div class="control">
+        <label for="b">Secondry Color</label>
+        <input class="z" type="color" id="b" name="secondary" value="#42B4B4" />
+      </div>
+      <div class="control">
+        <label for="c">Page BG</label>
+        <input class="z" type="color" id="c" name="background" value="#EEEAF2" />
+      </div>
+      <div class="control">
+        <label for="d">Nav Color</label>
+        <input class="z" type="color" id="d" name="aside" value="#1B1439" />
+      </div>
+      <div class="control">
+        <label for="e">Text Color</label>
+        <input class="z" type="color" id="e" name="text-color" value="#7B5C8D" />
+      </div>
+      <div class="control">
+        <label for="f">Header / Widget BG</label>
+        <input class="z" type="color" id="f" name="header" , value='#FFFFFF' />
+      </div>
+    </div>
   </div>
-  <div class="widget-header">Edit Colors</div>
-  <div class="controls">
-    <div class="control">
-      <label for="a">Primary Color</label>
-      <input class="z" type="color" id="a" name="primary" value="#54478E"/>
-    </div>
-    <div class="control">
-      <label for="b">Secondry Color</label>
-      <input class="z" type="color" id="b" name="secondary" value="#42B4B4"/>
-    </div>
-    <div class="control">
-      <label for="c">Page BG</label>
-      <input class="z" type="color" id="c" name="background" value="#EEEAF2"/>
-    </div>
-    <div class="control">
-      <label for="d">Nav Color</label>
-      <input class="z" type="color" id="d" name="aside" value="#1B1439"/>
-    </div>
-    <div class="control">
-      <label for="e">Text Color</label>
-      <input class="z" type="color" id="e" name="text-color" value="#7B5C8D"/>
-    </div>
-    <div class="control">
-      <label for="f">Header / Widget BG</label>
-      <input class="z" type="color" id="f" name="header", value='#FFFFFF'/>
-    </div>
+  <div class="app">
+    <aside></aside>
+    <main>
+      <header>
+        <div class="action-bar">
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+        </div>
+      </header>
+      <div class="body">
+        <h1 class="page-header">This is the Page Header</h1>
+        <div class="widget">
+          <div class="widget-header">I am the widget header</div>
+          <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#">At dignissimos totam nostrum inventore I am a link</a> corporis in cupiditate ab id aliquam ad.</div>
+          <button class="btn primary">Sample Primary Button</button>
+        </div>
+        <div class="widget">
+          <div class="widget-header">I am the widget header</div>
+          <div class="text">Lorem ipsum dolor sit amet <a href="#">At dignissimos totam nostrum inventore I am a link</a> consectetur adipisicing elit. At dignissimos totam nostrum inventore corporis in cupiditate ab id aliquam ad.</div>
+          <button class="btn secondary">Sample Secondary Button</button>
+        </div>
+        <div class="widget">
+          <div class="widget-header">I am the widget header</div>
+          <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos totam nostrum inventore corporis in cupiditate <a href="#">At dignissimos totam nostrum inventore I am a link</a> ab id aliquam ad.</div>
+          <button class="btn primary">Sample Primary Button</button>
+        </div>
+      </div>
+    </main>
   </div>
-</div>
-<div class="app">
-  <aside></aside>
-  <main>
-    <header>
-      <div class="action-bar">
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-      </div>
-    </header>
-    <div class="body">
-      <h1 class="page-header">This is the Page Header</h1>
-      <div class="widget">
-        <div class="widget-header">I am the widget header</div>
-        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#">At dignissimos totam nostrum inventore I am a link</a> corporis in cupiditate ab id aliquam ad.</div>
-        <button class="btn primary">Sample Primary Button</button>
-      </div>
-      <div class="widget">
-        <div class="widget-header">I am the widget header</div>
-        <div class="text">Lorem ipsum dolor sit amet <a href="#">At dignissimos totam nostrum inventore I am a link</a> consectetur adipisicing elit. At dignissimos totam nostrum inventore corporis in cupiditate ab id aliquam ad.</div>
-        <button class="btn secondary">Sample Secondary Button</button>
-      </div>
-      <div class="widget">
-        <div class="widget-header">I am the widget header</div>
-        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos totam nostrum inventore corporis in cupiditate <a href="#">At dignissimos totam nostrum inventore I am a link</a> ab id aliquam ad.</div>
-        <button class="btn primary">Sample Primary Button</button>
-      </div>
-    </div>
-  </main>
-</div>
-  
-    <script  src="js/index.js"></script>
-
+  <script src="js/index.js"></script>
 </body>
+
 </html>
